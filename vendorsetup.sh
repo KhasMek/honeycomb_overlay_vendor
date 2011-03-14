@@ -1,0 +1,3 @@
+add_lunch_combo honeycomb_fascinate-userdebug
+add_lunch_combo honeycomb_fascinate-eng
+
