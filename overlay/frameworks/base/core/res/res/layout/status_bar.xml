@@ -79,12 +79,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:textColor="#ff000000" />
+                android:textColor="#ffffffff" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:textColor="#ff000000" />
+                android:textColor="#ffffffff" />
         </com.android.server.status.TickerView>
     </LinearLayout>
 
