@@ -1,3 +1,2 @@
-add_lunch_combo honeycomb_fascinate-userdebug
-add_lunch_combo honeycomb_fascinate-eng
+add_lunch_combo honeycomb_vzwtab-eng
 
