@@ -24,15 +24,30 @@
     android:descendantFocusability="afterDescendants"
     >
 
-    <LinearLayout
+    <LinearLayout android:id="@+id/exp_view_lin_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:paddingTop="3dp"
         android:paddingBottom="5dp"
         android:paddingRight="3dp"
         android:background="@drawable/status_bar_header_background"
         >
+	<!-- Begin Power Widget -->
+        <com.android.server.status.galaxyswidget.GalaxySWidget 
+	    android:id="@+id/galaxy_s_widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <!-- End Power Widget -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -75,6 +90,7 @@
             android:background="@drawable/btn_default_small"
             />
     </LinearLayout>
+  </LinearLayout>
 
     <FrameLayout
         android:layout_width="match_parent" 
